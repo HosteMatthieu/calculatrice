@@ -41,3 +41,133 @@ input{
 	text-align: center;
 	text-decoration: none;
 }
+
+button{
+	position: absolute;
+	height: 15%;
+	width: 15%;
+	background-color: #F4F4F4;
+	border: 3px solid;
+	border-color: black;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#dot{
+	left: 2%;
+	bottom: 2%;
+}
+
+#zero{
+	left: 19%;
+	bottom: 2%;
+}
+
+#one{
+	left: 2%;
+	bottom: 19%;
+}
+
+#two{
+	left: 19%;
+	bottom: 19%;
+}
+
+#three{
+	left: 36%;
+	bottom: 19%;
+}
+
+#four{
+	left: 2%;
+	bottom: 36%;
+}
+
+#five{
+	left: 19%;
+	bottom: 36%;
+}
+
+#six{
+	left: 36%;
+	bottom: 36%;
+}
+
+#seven{
+	left: 2%;
+	bottom: 53%;
+}
+
+#eight{
+	left: 19%;
+	bottom: 53%;
+}
+
+#nine{
+	left: 36%;
+	bottom: 53%;
+}
+
+#equal{
+	background-color: darkgreen;
+	left:36%;
+	bottom: 2%;
+	width: 32%;
+}
+
+#plus{
+	left: 53%;
+	bottom: 19%;
+}
+
+#minus{
+	left: 53%;
+	bottom: 36%;
+}
+
+#times{
+	left: 53%;
+	bottom: 53%;
+}
+
+#open{
+	left: 70%;
+	bottom: 19%;
+}
+
+#modulo{
+	left: 70%;
+	bottom: 36%;
+}
+
+#divide{
+	left: 70%;
+	bottom: 53%;
+}
+
+#close{
+	left:70%;
+	bottom:2%;
+}
+
+#clear{
+	background-color:crimson;
+	left:87%;
+	bottom: 2%;
+	height: 32%;
+	width:10%;
+}
+
+#clearall{
+	background-color:crimson;
+	left:87%;
+	bottom: 36%;
+	height: 32%;
+	width:10%;
+}
+
+.operator{
+	background-color: bisque;
+}
+
