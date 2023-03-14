@@ -1,0 +1,46 @@
+<!Doctype html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Calculatrice </title>
+    <link rel="stylesheet" href="calculatrice.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculatrice.js"></script>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="screen" disabled>
+            <input type="text" id="result" disabled>
+        </div>
+        <div class="keys">
+            <button value="0" onclick="addToScreen('0')">0</button>
+            <button value="1" onclick="addToScreen('1')">1</button>
+            <button value="2" onclick="addToScreen('2')">2</button>
+            <button value="3" onclick="addToScreen('3')">3</button>
+            <button value="4" onclick="addToScreen('4')">4</button>
+            <button value="5" onclick="addToScreen('5')">5</button>
+            <button value="6" onclick="addToScreen('6')">6</button>
+            <button value="7" onclick="addToScreen('7')">7</button>
+            <button value="8" onclick="addToScreen('8')">8</button>
+            <button value="9" onclick="addToScreen('9')">9</button>
+            <button value="." onclick="addToScreen('.')">.</button>
+            <button class="operator" value="+" onclick="addToScreen('+')">+</button>
+            <button class="operator" value="-" onclick="addToScreen('-')">-</button>
+            <button class="operator" value="×" onclick="addToScreen('*')">×</button>
+            <button class="operator" value="÷" onclick="addToScreen('/')">÷</button>
+            <button class="operator" value="%" onclick="addToScreen('%')">%</button>
+            <button class="operator" value="(" onclick="addToScreen('(')">(</button>
+            <button class="operator" value=")" onclick="addToScreen(')')">)</button>
+            <button id="clear" value="C" onclick="clearScreen()">C</button>
+            <button id="equal" value="=" onclick="resultScreen()">=</button>
+        </div>
+
+
+
+</body>
+
+</html>

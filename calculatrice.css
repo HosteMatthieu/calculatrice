@@ -1,0 +1,18 @@
+html{
+	background-color: #081525;
+	color: #F4F4F4;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+.calculator{
+	position: absolute;
+	top: 5%;
+	right: 2%;
+	width: 13%;
+	color: #F4F4F4;
+	border: 2px solid;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+}
