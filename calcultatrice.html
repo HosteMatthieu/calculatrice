@@ -7,7 +7,7 @@
     <title> Calculatrice </title>
     <link rel="stylesheet" href="calculatrice.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="calculatrice.js"></script>
+
 </head>
 
 <body>
@@ -17,31 +17,32 @@
             <input type="text" id="result" disabled>
         </div>
         <div class="keys">
-            <button id="zero" value="0" onclick="addToScreen('0')">0</button>
-            <button id="one" value="1" onclick="addToScreen('1')">1</button>
-            <button id="two" value="2" onclick="addToScreen('2')">2</button>
-            <button id="three" value="3" onclick="addToScreen('3')">3</button>
-            <button id="four" value="4" onclick="addToScreen('4')">4</button>
-            <button id="five" value="5" onclick="addToScreen('5')">5</button>
-            <button id="six" value="6" onclick="addToScreen('6')">6</button>
-            <button id="seven" value="7" onclick="addToScreen('7')">7</button>
-            <button id="eight" value="8" onclick="addToScreen('8')">8</button>
-            <button id="nine" value="9" onclick="addToScreen('9')">9</button>
-            <button id="dot" value="." onclick="addToScreen('.')">.</button>
-            <button id="plus" class="operator" value="+" onclick="addToScreen('+')">+</button>
-            <button id="minus" class="operator" value="-" onclick="addToScreen('-')">-</button>
-            <button id="times" class="operator" value="×" onclick="addToScreen('*')">×</button>
-            <button id="divide" class="operator" value="÷" onclick="addToScreen('/')">÷</button>
-            <button id="modulo" class="operator" value="%" onclick="addToScreen('%')">%</button>
-            <button id="open" class="operator" value="(" onclick="addToScreen('(')">(</button>
-            <button id="close" class="operator" value=")" onclick="addToScreen(')')">)</button>
-            <button id="clear" value="C" onclick="clearLastNumber()">C</button>
-            <button id="clearall" value="AC" onclick="clearAllScreen()">AC</button>
-            <button id="equal" value="=" onclick="resultScreen()">=</button>
+            <button id="zero" value="0" onclick="calculator.addToScreen('0')">0</button>
+            <button id="one" value="1" onclick="calculator.addToScreen('1')">1</button>
+            <button id="two" value="2" onclick="calculator.addToScreen('2')">2</button>
+            <button id="three" value="3" onclick="calculator.addToScreen('3')">3</button>
+            <button id="four" value="4" onclick="calculator.addToScreen('4')">4</button>
+            <button id="five" value="5" onclick="calculator.addToScreen('5')">5</button>
+            <button id="six" value="6" onclick="calculator.addToScreen('6')">6</button>
+            <button id="seven" value="7" onclick="calculator.addToScreen('7')">7</button>
+            <button id="eight" value="8" onclick="calculator.addToScreen('8')">8</button>
+            <button id="nine" value="9" onclick="calculator.addToScreen('9')">9</button>
+            <button id="dot" value="." onclick="calculator.addToScreen('.')">.</button>
+            <button id="plus" class="operator" value="+" onclick="calculator.addToScreen('+')">+</button>
+            <button id="minus" class="operator" value="-" onclick="calculator.addToScreen('-')">-</button>
+            <button id="times" class="operator" value="×" onclick="calculator.addToScreen('*')">×</button>
+            <button id="divide" class="operator" value="÷" onclick="calculator.addToScreen('/')">÷</button>
+            <button id="modulo" class="operator" value="%" onclick="calculator.addToScreen('%')">%</button>
+            <button id="open" class="operator" value="(" onclick="calculator.addToScreen('(')">(</button>
+            <button id="close" class="operator" value=")" onclick="calculator.addToScreen(')')">)</button>
+            <button id="clear" value="C" onclick="calculator.clearLastNumber()">C</button>
+            <button id="clearall" value="AC" onclick="calculator.clearAllScreen()">AC</button>
+            <button id="equal" value="=" onclick="calculator.resultScreen()">=</button>
+            <button id="back" value="BACK" onclick="calculator.backHistory()">BACK</button>
         </div>
 
 
 
 </body>
-
+<script src="calculatrice.js"></script>
 </html>
